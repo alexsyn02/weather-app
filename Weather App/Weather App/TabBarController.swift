@@ -7,11 +7,11 @@
 
 import UIKit
 
-class TabBarController: UITabBarController, Storyboarded    {
-
+class TabBarController: UITabBarController, Storyboarded {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 
