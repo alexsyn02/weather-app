@@ -14,7 +14,14 @@ class MainWeatherViewController: UIViewController, Storyboarded {
 
         // Do any additional setup after loading the view.
     }
-    
+    func firstPointFirst() {
+      var hello =  int, UInt, float, double, string.
+         // var max Int = -2,147,483,648 var max 2,147,483,647
+        var minValue = UInt8.min
+        var maxValue = UInt8.max
+        var maxFloat = Float.
+            
+    }
 
     /*
     // MARK: - Navigation
