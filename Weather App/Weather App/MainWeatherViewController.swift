@@ -21,6 +21,7 @@ class MainWeatherViewController: UIViewController, Storyboarded {
         var float: Float = 50
         var double = 50.0
         var string = "Hello Zhopa"
+        print(string)
         
         print(int, uint, float, double, string)
         
