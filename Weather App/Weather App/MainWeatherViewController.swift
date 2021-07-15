@@ -13,6 +13,7 @@ class MainWeatherViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
         
         firstPointFirst()
+        print("Usage of print in viewDidLoad")
     }
     
     func firstPointFirst() {
@@ -23,6 +24,8 @@ class MainWeatherViewController: UIViewController, Storyboarded {
         var string = "Hello Zhopa"
         
         print(int, uint, float, double, string)
+        
+        print("Arthur is learning iOS Development.")
         
         int = 70
         uint = 30
@@ -53,5 +56,7 @@ class MainWeatherViewController: UIViewController, Storyboarded {
         let maxDouble = Double.greatestFiniteMagnitude
         
         print(maxInt, minInt, minUint, maxUint, minFloat, maxFloat, minDouble, maxDouble)
+        
+        print("Arthur is an iOS Dev.")
     }
 }
